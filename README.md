@@ -103,8 +103,10 @@ PCA reduced the feature space from **30 to 9 components** while preserving appro
 ### 5. Model Evaluation
 - Confusion Matrix  
 - ROC Curve Analysis  
+<img width="1036" height="822" alt="image" src="https://github.com/user-attachments/assets/e39f9266-444c-4fd6-a36c-7b05169720f5" />
 
 ROC curves demonstrated strong discriminatory power across all models, with **SVM achieving the highest AUC**.
+<img width="1034" height="819" alt="image" src="https://github.com/user-attachments/assets/3eb51256-e379-40c1-ae22-3e3df0d77b78" />
 
 ---
 
@@ -116,6 +118,7 @@ Key influential features identified include:
 - `concave_points_mean`  
 - `radius_mean`  
 - `texture_mean`  
+<img width="957" height="769" alt="image" src="https://github.com/user-attachments/assets/84ab1ae9-aded-4a99-881d-5a44d3d46dc7" />
 
 These features significantly contributed to distinguishing malignant tumours.
 
@@ -130,6 +133,8 @@ These features significantly contributed to distinguishing malignant tumours.
 | Gradient Boosting | ~96.5% |
 | SVM (RBF Kernel) | ~97.4% |
 | **PCA + SVM (Best Model)** | **≈ 99.12%** |
+
+<img width="1280" height="556" alt="image" src="https://github.com/user-attachments/assets/9e03eeee-3098-45fc-a7ad-ad99e113d4fc" />
 
 ✅ **Best Performing Model:** PCA + SVM  
 ✅ **Final Accuracy:** ≈ **99.12%**
@@ -149,7 +154,7 @@ These features significantly contributed to distinguishing malignant tumours.
   Place data.csv in the project directory
   Or update the dataset path inside the notebook
 
-  📌 Conclusion
+ ## 📌 Conclusion
 
 This project demonstrates how structured data preprocessing, robust machine learning models, and explainable AI techniques can be combined to build a highly accurate and interpretable breast cancer prediction system.
 
@@ -157,7 +162,7 @@ The PCA-enhanced SVM model achieved superior performance, highlighting the impor
 
 This work contributes toward applying machine learning in healthcare for early diagnosis and clinical decision support.
 
-🔗 References
+## 🔗 References
 
 UCI Machine Learning Repository – Breast Cancer Dataset
 
