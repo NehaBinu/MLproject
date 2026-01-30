@@ -142,3 +142,26 @@ These features significantly contributed to distinguishing malignant tumours.
    ```bash
    git clone https://github.com/your-username/Breast-Cancer-Prediction-ML
 
+2. Open the notebook:
+   Breast_Cancer_Prediction.ipynb
+
+3.Ensure dataset availability:
+  Place data.csv in the project directory
+  Or update the dataset path inside the notebook
+
+  📌 Conclusion
+
+This project demonstrates how structured data preprocessing, robust machine learning models, and explainable AI techniques can be combined to build a highly accurate and interpretable breast cancer prediction system.
+
+The PCA-enhanced SVM model achieved superior performance, highlighting the importance of dimensionality reduction in medical datasets.
+
+This work contributes toward applying machine learning in healthcare for early diagnosis and clinical decision support.
+
+🔗 References
+
+UCI Machine Learning Repository – Breast Cancer Dataset
+
+Lundberg & Lee (2017) – SHAP Explainability
+
+World Health Organization – Breast Cancer Factsheet
+
